@@ -1,6 +1,14 @@
+/* Problem description: Define a function which returns a string as a promise. If the millisecond at that instance is divisible by the 4th index of the prime number array, then it should resolve the promise as “​success! ”, or else it should reject the promise as “Better luck next time!”. Get the promise response and print it in the console!
+Instructions:
+1.You can use any package in js to get the millisecond.
+2.Code should be properly commented and should explain the block well.
+3.Camel Spacing (naming convention) should be used to declare variables and function names.
+Restrictions:
+1.You should not use Async Await.
+2.No third party libraries should be used. */
+
 // A promise has two results. It can either be completed (i.e. it is resolved) or it can be failed (i.e. it is rejected).
 // Introducing promise syntax by creating a variable called "let" and a object called "Promises" which passes two parameters resolve and reject.
-
 let p = new Promise((resolve, reject) => {
 
 // Camel spacing naming convention has been used for the variable and function names declarations.
