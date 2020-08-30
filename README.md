@@ -1,6 +1,6 @@
 # JavaScript-Promises-Async_Await
-Promises and Async Await concepts of JavaScript are used to solve the problems defined in this repository.
-###  Problem description solved in this repository: 
+<p> Promises and Async Await concepts of JavaScript are used to solve the problems defined in this repository. </p>
+## Problem description solved in this repository: 
 <h3> 1. Promises </h4>
 Description:
 Define a function which returns a string as a promise. If the
@@ -8,7 +8,7 @@ millisecond at that instance is divisible by the 4th index of the prime
 number array, then it should resolve the promise as “​success! ”, or
 else it should reject the promise as “Better luck next time!”. Get the
 promise response and print it in the console!
-
+</br>
 Instructions:
 1. You can use any package in js to get the millisecond.
 2. Code should be properly commented and should explain the
@@ -29,7 +29,7 @@ using the first promise is positive or else, it should be rejected as
 negative. If positive, print in the console as “​User Logged in
 successfully!” or else it should print in the console as “Oops! try
 again!​”.
-
+</br>
 Instructions:
 1. You should use Async Await.
 2. Code should be properly commented and should explain the
