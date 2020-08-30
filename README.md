@@ -1,6 +1,7 @@
 # JavaScript-Promises-Async_Await
 <p> Promises and Async Await concepts of JavaScript are used to solve the problems defined in this repository. </p>
-#### Problem description solved in this repository: 
+
+##### Problem description solved in this repository: 
 <h3> 1. Promises </h4>
 Description:
 Define a function which returns a string as a promise. If the
