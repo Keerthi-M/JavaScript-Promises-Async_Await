@@ -4,7 +4,7 @@ Instructions:
 2.Code should be properly commented and should explain the block well.
 3.Camel Spacing (naming convention) should be used to declare variables and function names.
 Restrictions:
-1.You should not use Async Await.
+1.Async Await should not be used.
 2.No third party libraries should be used. */
 
 // A promise has two results. It can either be completed (i.e. it is resolved) or it can be failed (i.e. it is rejected).
@@ -19,7 +19,7 @@ var d = new Date("August 30, 2020 01:15:00:550");
 
 // getMilliseconds() method returns the milliseconds (from 0 to 999) of the specified date and time.
 var milliSec = d.getMilliseconds();
-if ( primeNumber[4] % milliSec ==0)
+if (milliSec % primeNumber[4] ==0)
 {
 	resolve('Sucess !')
 }
@@ -31,7 +31,7 @@ else
 
 // then method is going to be called when the promise resolves successfully.
 p.then( (message) => {
-console.log(' Millisecond of the instance is divisible by the fourth index of the primeNumber Array. Therefore, the promise would like to return' +
+console.log(' Millisecond of the instance is divisible by the fourth index of the primeNumber Array. Therefore, the promise would like to return ' +
  message)
 })
 
